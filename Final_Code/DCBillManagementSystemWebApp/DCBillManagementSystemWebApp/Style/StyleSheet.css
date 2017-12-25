@@ -1,0 +1,142 @@
+﻿.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+header {
+    width: 960px;
+    float: left;
+}
+header h1{
+    font-family:Arial;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    background-color:aqua;
+    color:black;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.logo {
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+.banner {
+    width: 660px;
+    height: 100px;
+    float: left;
+}
+nav {
+    
+}
+nav ul {
+    
+}
+.entryHeader {
+    display: inline-block;
+     width: 320px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Baloo Bhaijaan', cursive;
+    color: white;
+    background: black;
+    padding-top: 10px;
+    font-size:30px;
+    border-bottom:solid;
+    border-bottom-color:ActiveBorder;
+}
+ .entry{
+    width:316px;
+    float:left;
+    height: 0px;
+     border:2px solid wheat;
+}
+
+div ul li{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Baloo Bhaijaan', cursive;
+    color: white;
+    background: black;
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-size:18px;
+   
+}
+a:hover {
+    color: black;
+    background: wheat;
+    font-size: 150%;
+    font-style: italic;
+}
+
+div.container {
+    width: 960px;
+    float: left;
+    margin-bottom: 200px;
+}
+div.content {
+    width: 640px;
+    clear:both
+}
+article section {
+    width: 698px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article section h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+article section p {
+    border: 1px solid whitesmoke;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: justify;
+    
+}
+aside {
+    float: left;
+    width: 260px;
+    padding-top: 10px;
+}
+aside section {
+    margin-bottom: 10px;
+    width: 258px;
+    border: 1px solid black;
+}
+fieldset {
+    width: 620px;
+    margin: 10px;
+}
+aside section h1 {
+    color: aqua;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+aside section p {
+    font-size: 16px;
+    text-align: justify;
+}
+footer {
+    width: 960px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: black;
+    color: wheat;
+    clear: both;
+}

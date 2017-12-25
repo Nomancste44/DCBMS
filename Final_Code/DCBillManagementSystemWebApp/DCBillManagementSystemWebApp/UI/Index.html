@@ -1,0 +1,52 @@
+﻿
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="../Style/Reset.css" rel="stylesheet" />
+    <link href="../Style/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="../Images/Logo.png" alt="Logo">
+        </div>
+        <div class="banner">
+            <img src="../Images/Banner.png" alt="Banner">
+        </div>
+        <header>
+            <h1>Diagnostic Center Bill Management System</h1>
+        </header>
+        <nav>
+            <ul>
+                <li class="entryHeader">Set Up</li>
+                <li class="entryHeader">Test Request</li>
+                <li class="entryHeader">Report</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="entry">
+                <ul>
+                    <li><a href="TestTypeUI.aspx">Type</a><br /></li>
+                    <li><a href="TestNameUI.aspx">Test</a></li>
+                </ul>
+            </div>
+            <div class="entry">
+                <ul>
+                    <li><a href="TestRequestEntryUI.aspx">Entry</a></li>
+                    <li><a href="PaymentUI.aspx">Payment</a></li>
+                </ul>
+            </div>
+            <div class="entry" id="report">
+                <ul>
+                    <li><a href="TestWiseReportUI.aspx">Test Wise</a></li>
+                    <li><a href="TypeWiseReportUI.aspx">Type Wise</a></li>
+                    <li><a href="UnpaidBillInformationUI.aspx">Unpaid Bill</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
